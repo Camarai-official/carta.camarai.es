@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "Restorant Camarai",
+    "cart": "Shporta"
+  },
+  "categories": {
+    "tapas": "Tapas",
+    "beverages": "Pije"
+  },
+  "checkout": {
+    "title": "Porosia Juaj",
+    "emptyCart": "Nuk ka produkte në porosinë tuaj.",
+    "total": "Totali",
+    "completeOrder": "Përfundo Porosinë",
+    "addProducts": "Shtoni disa produkte para se të përfundoni porosinë.",
+    "orderCompleted": "Porosia u përfundua! Totali:",
+    "close": "Mbyll",
+    "viewOrder": "Shiko Porosinë"
+  },
+  "product": {
+    "loading": "Duke u ngarkuar...",
+    "imageError": "Gabim në ngarkimin e imazhit"
+  },
+  "notifications": {
+    "emptyCartWarning": "Nuk ka produkte në porosinë tuaj. Shtoni disa produkte para se të përfundoni porosinë.",
+    "orderSuccess": "Porosia u përfundua! Totali:"
+  },
+  "general": {
+    "loading": "Duke ngarkuar menunë...",
+    "euros": "€"
+  },
+  "notFound": {
+    "title": "Faqja Nuk U Gjet",
+    "description": "Na vjen keq, faqja që po kërkoni nuk ekziston ose është zhvendosur.",
+    "goHome": "Kthehu në Shtëpi",
+    "goBack": "Kthehu Mbrapsht"
+  }
+} 

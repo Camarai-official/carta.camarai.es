@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "Restaurante Camarai",
+    "cart": "Carrito"
+  },
+  "categories": {
+    "tapas": "Tapas",
+    "beverages": "Bebidas"
+  },
+  "checkout": {
+    "title": "Tu Pedido",
+    "emptyCart": "No hay productos en tu pedido.",
+    "total": "Total",
+    "completeOrder": "Completar Pedido",
+    "addProducts": "Agrega algunos productos antes de completar el pedido.",
+    "orderCompleted": "¡Pedido completado! Total:",
+    "close": "Cerrar",
+    "viewOrder": "Ver Pedido"
+  },
+  "product": {
+    "loading": "Cargando...",
+    "imageError": "Error al cargar imagen"
+  },
+  "notifications": {
+    "emptyCartWarning": "No hay productos en tu pedido. Agrega algunos productos antes de completar el pedido.",
+    "orderSuccess": "¡Pedido completado! Total:"
+  },
+  "general": {
+    "loading": "Cargando menú...",
+    "euros": "€"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Lo sentimos, la página que buscas no existe o ha sido movida.",
+    "goHome": "Ir al Inicio",
+    "goBack": "Volver Atrás"
+  }
+} 

@@ -1,0 +1,150 @@
+.category-tabs {
+    display: flex;
+    overflow-x: auto;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 90;
+    padding: 1% 2%;
+    border-bottom: 1px solid #e0e0e0;
+    scrollbar-width: thin;
+    scrollbar-color: #25D366 transparent;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.category-tabs::-webkit-scrollbar {
+    height: 4px;
+    background: transparent;
+}
+
+.category-tabs::-webkit-scrollbar-track {
+    background: transparent;
+    border: none;
+    margin: 0;
+}
+
+.category-tabs::-webkit-scrollbar-thumb {
+    background: #25D366;
+    border-radius: 2px;
+    border: none;
+}
+
+.category-tabs::-webkit-scrollbar-thumb:hover {
+    background: #1ea952;
+}
+
+
+
+.category-tab {
+    padding: 0.5rem 1.25rem;
+    margin: 0 0.25rem;
+    white-space: nowrap;
+    border-radius: 20px;
+    background-color: #ECE5DD;
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: unset;
+    width: auto;
+    text-align: center;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.category-tab:hover {
+    background-color: rgb(235, 235, 235);
+    filter: brightness(0.97);
+    transform: translateY(-1px);
+}
+
+.category-tab.active {
+    background-color: #25D366;
+    font-size: 14px;
+    color: white;
+    padding: 0.5rem 1.25rem;
+    margin: 0 0.25rem;
+    border-color: #1ea952;
+    box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
+}
+
+.hide-tabs {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), opacity 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+@media (max-width: 768px) {
+    html, body {
+        /* Para Firefox */
+        scrollbar-width: none !important;
+        /* Para IE y Edge */
+        -ms-overflow-style: none !important;
+        /* Para asegurar que no haya scroll horizontal accidental */
+        overflow-x: hidden !important;
+    }
+    /* Para Chrome, Safari y Opera */
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+        background: transparent !important;
+    }
+
+    .category-tabs {
+        display: flex;
+        overflow-x: auto;
+        background-color: #FFFFFF;
+        position: fixed;
+        top: 4.5rem; /* Ajustar para que aparezca debajo del header */
+        width: 100%;
+        z-index: 90;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #e0e0e0;
+        transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), opacity 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+} 
+
+
+@media (max-width: 340px) {
+
+    .category-tabs {
+        display: flex;
+        overflow-x: auto;
+        background-color: #FFFFFF;
+        position: fixed;
+        width: 100%;
+        z-index: 90;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #e0e0e0;
+    }
+} 
+
+
+@media (max-width: 320px) {
+
+    .category-tabs {
+        display: flex;
+        overflow-x: auto;
+        background-color: #FFFFFF;
+        position: fixed;
+
+        width: 100%;
+        z-index: 90;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #e0e0e0;
+    }
+} 
+
+/* Mejorar la experiencia de scroll en desktop */
+@media (min-width: 769px) {
+    .category-tabs {
+        scroll-behavior: smooth;
+        padding: 0.75rem 2rem;
+    }
+    
+    .category-tabs:hover {
+        scrollbar-width: thin;
+    }
+} 

@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "Restaurant Camarai",
+    "cart": "Panier"
+  },
+  "categories": {
+    "tapas": "Tapas",
+    "beverages": "Boissons"
+  },
+  "checkout": {
+    "title": "Votre Commande",
+    "emptyCart": "Aucun produit dans votre commande.",
+    "total": "Total",
+    "completeOrder": "Finaliser la Commande",
+    "addProducts": "Ajoutez quelques produits avant de finaliser la commande.",
+    "orderCompleted": "Commande terminée ! Total :",
+    "close": "Fermer",
+    "viewOrder": "Voir la Commande"
+  },
+  "product": {
+    "loading": "Chargement...",
+    "imageError": "Erreur de chargement d'image"
+  },
+  "notifications": {
+    "emptyCartWarning": "Aucun produit dans votre commande. Ajoutez quelques produits avant de finaliser la commande.",
+    "orderSuccess": "Commande terminée ! Total :"
+  },
+  "general": {
+    "loading": "Chargement du menu...",
+    "euros": "€"
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+    "goHome": "Accueil",
+    "goBack": "Retour"
+  }
+} 

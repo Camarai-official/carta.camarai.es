@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "カマライレストラン",
+    "cart": "カート"
+  },
+  "categories": {
+    "tapas": "タパス",
+    "beverages": "ドリンク"
+  },
+  "checkout": {
+    "title": "ご注文",
+    "emptyCart": "注文に商品がありません。",
+    "total": "合計",
+    "completeOrder": "注文完了",
+    "addProducts": "注文を完了する前に商品を追加してください。",
+    "orderCompleted": "注文完了！合計：",
+    "close": "閉じる",
+    "viewOrder": "注文を表示"
+  },
+  "product": {
+    "loading": "読み込み中...",
+    "imageError": "画像読み込みエラー"
+  },
+  "notifications": {
+    "emptyCartWarning": "注文に商品がありません。注文を完了する前に商品を追加してください。",
+    "orderSuccess": "注文完了！合計："
+  },
+  "general": {
+    "loading": "メニュー読み込み中...",
+    "euros": "€"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "申し訳ございませんが、お探しのページは存在しないか、移動されました。",
+    "goHome": "ホームに戻る",
+    "goBack": "戻る"
+  }
+} 

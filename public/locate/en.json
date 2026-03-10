@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "Camarai Restaurant",
+    "cart": "Cart"
+  },
+  "categories": {
+    "tapas": "Tapas",
+    "beverages": "Beverages"
+  },
+  "checkout": {
+    "title": "Your Order",
+    "emptyCart": "No products in your order.",
+    "total": "Total",
+    "completeOrder": "Complete Order",
+    "addProducts": "Add some products before completing the order.",
+    "orderCompleted": "Order completed! Total:",
+    "close": "Close",
+    "viewOrder": "View Order"
+  },
+  "product": {
+    "loading": "Loading...",
+    "imageError": "Error loading image"
+  },
+  "notifications": {
+    "emptyCartWarning": "No products in your order. Add some products before completing the order.",
+    "orderSuccess": "Order completed! Total:"
+  },
+  "general": {
+    "loading": "Loading menu...",
+    "euros": "€"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home",
+    "goBack": "Go Back"
+  }
+} 

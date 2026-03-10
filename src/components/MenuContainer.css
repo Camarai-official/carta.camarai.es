@@ -1,0 +1,23 @@
+.menu-container {
+    margin-top: 5rem;
+        padding: 0 2%;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .menu-container {
+        margin-top: 8rem;
+        padding: 0 2%;
+    }
+} 
+
+
+@media (max-width: 480px) {
+    .menu-container {
+        margin-top: 8rem;
+        padding: 3%;
+    }
+} 

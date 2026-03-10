@@ -1,0 +1,30 @@
+.checkout-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.checkout-btn {
+    background-color: white;
+    color: #25D366;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, filter 0.2s;
+}
+.checkout-btn:hover {
+    background-color: #e6f9f0;
+    color: #1ea952;
+    filter: brightness(0.95);
+}
+.checkout-total {
+    font-weight: 500;
+} 

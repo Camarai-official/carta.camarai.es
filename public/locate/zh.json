@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "卡马莱餐厅",
+    "cart": "购物车"
+  },
+  "categories": {
+    "tapas": "小食",
+    "beverages": "饮品"
+  },
+  "checkout": {
+    "title": "您的订单",
+    "emptyCart": "订单中没有商品。",
+    "total": "总计",
+    "completeOrder": "完成订单",
+    "addProducts": "完成订单前请添加一些商品。",
+    "orderCompleted": "订单完成！总计：",
+    "close": "关闭",
+    "viewOrder": "查看订单"
+  },
+  "product": {
+    "loading": "加载中...",
+    "imageError": "图片加载错误"
+  },
+  "notifications": {
+    "emptyCartWarning": "订单中没有商品。完成订单前请添加一些商品。",
+    "orderSuccess": "订单完成！总计："
+  },
+  "general": {
+    "loading": "加载菜单中...",
+    "euros": "€"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "抱歉，您查找的页面不存在或已被移动。",
+    "goHome": "返回首页",
+    "goBack": "返回"
+  }
+} 

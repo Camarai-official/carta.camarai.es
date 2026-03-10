@@ -31,7 +31,7 @@ Menú digital interactivo de alto rendimiento para el ecosistema Camarai. Diseñ
 *   **Validación de Mesa**: Vincular la `session` de la URL directamente con el `tableId` de la sala.
 
 ### Fase 4: Experiencia Premium
-*   **Micro-animaciones**: Transiciones suaves entre categorías y efectos de "añadir al carrito".
+*   **Micro-Mejoras UX-UI**: Transiciones suaves entre categorías y efectos de "añadir al carrito", mejorar estilos, paleta...
 *   **Upselling Inteligente**: Recomendaciones de productos complementarios basadas en lo que hay en el carrito.
 
 ---
